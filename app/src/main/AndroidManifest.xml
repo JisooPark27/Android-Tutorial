@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidtutorial">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -17,7 +17,7 @@
             android:resource="@menu/menu1" />
 
         <activity
-            android:name=".ColorMenuSettingAndButtonToast"
+            android:name=".ExternalStorageImageView"
             android:exported="true"
             android:label="간단 웹브라우저">
             <intent-filter>
