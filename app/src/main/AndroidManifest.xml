@@ -12,12 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test1"
         android:usesCleartextTraffic="true">
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@menu/menu1" />
 
         <activity
-            android:name=".ExternalStorageImageView"
+            android:name=".Test2"
             android:exported="true"
             android:label="간단 웹브라우저">
             <intent-filter>
@@ -26,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SecondActivity"
+            android:label="Second 액티비티"/>
     </application>
 
 </manifest>
