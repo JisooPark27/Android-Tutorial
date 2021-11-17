@@ -6,7 +6,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.example.week11"
+        applicationId "com.example.week11_1"
         minSdk 21
         targetSdk 30
         versionCode 1
